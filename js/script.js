@@ -1,5 +1,5 @@
-$(document).ready(function() {
 
+$(document).ready(function() {
 
 	$('#search-btn').click(function(){
 		var programSelected = $('#program').val()
@@ -67,8 +67,6 @@ $(document).ready(function() {
 		}
 	})
 
-
-
 function scholarshipsFadeIn() {
 	$('.scholarships-acm').fadeOut(200, function(){
 		$(this).attr('src', 'images/acm-color.png').fadeIn(200)
@@ -93,7 +91,7 @@ function loanFadeIn() {
 		$(this).attr('src', 'images/aci-color.png').fadeIn(200)
 	})
 	$('.loans-afe').fadeOut(200, function(){
-		$(this).attr('src', 'images/afe-color.png').fadeIn(200)
+		$(this).attr('src', 'images/AFE-color.png').fadeIn(200)
 	})	
 }
 
@@ -102,7 +100,7 @@ function loanFadeOut(){
 		$(this).attr('src', 'images/aci-fade.png').fadeIn(200)
 	})
 	$('.loans-afe').fadeOut(200, function(){
-		$(this).attr('src', 'images/afe-fade.png').fadeIn(200)
+		$(this).attr('src', 'images/AFE-fade.png').fadeIn(200)
 	})	
 }
 
@@ -129,7 +127,7 @@ function kindergartenFadeIn() {
 		$(this).attr('src', 'images/acm-color.png').fadeIn(200)
 	})
 	$('.kindergarten-afe').fadeOut(200, function(){
-		$(this).attr('src', 'images/afe-color.png').fadeIn(200)
+		$(this).attr('src', 'images/AFE-color.png').fadeIn(200)
 	})
 }
 
@@ -138,7 +136,7 @@ function kindergartenFadeOut() {
 		$(this).attr('src', 'images/acm-fade.png').fadeIn(200)
 	})
 	$('.kindergarten-afe').fadeOut(200, function(){
-		$(this).attr('src', 'images/afe-fade.png').fadeIn(200)
+		$(this).attr('src', 'images/AFE-fade.png').fadeIn(200)
 	})
 }
 
