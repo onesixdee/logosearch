@@ -11,42 +11,63 @@
 	</header>
 
 	<section class="wrapper">
-		<form class="program">
-			<select>
+		<form>
+			<select id="program">
 				<option>Program Type</option>
 				<option id="search-program" value="search all">Search All</option>
 				<option id="scholarships" value="scholarships">Scholarship</option>
 				<option id="loans" value="loan programs">Loan Program</option>
 			</select>
 		</form>
-		<form class="education">
-		<select>
-			<option>Education Level</option>
-			<option id="search-education" value="search all">Search All</option>
-			<option id="kindergarten" value="scholarships">Kindergarten</option>
-			<option id="highschool" value="loan programs">High School</option>
-		</select>
-	</form>
-	<button>Search</button>
+		<form>
+			<select id="education">
+				<option>Education Level</option>
+				<option id="search-education" value="search all">Search All</option>
+				<option id="kindergarten" value="kindergarten">Kindergarten</option>
+				<option id="highschool" value="highschool">High School</option>
+			</select>
+		</form>
+		<button id="search-btn">Search</button>
 	</section>
 
 	<section id="logos" class="logos">
-		<img src="images/aci-fade.png" alt="aci">
-		<img src="images/acm-fade.png" alt="acm">
-		<img src="images/AFE-fade.png" alt="AFE">
-		<img src="images/aci-fade.png" alt="aci">
-		<img src="images/acm-fade.png" alt="acm">
-		<img src="images/AFE-fade.png" alt="AFE">
-		<img src="images/aci-fade.png" alt="aci">
-		<img src="images/acm-fade.png" alt="acm">
-		<img src="images/AFE-fade.png" alt="AFE">
-		<img src="images/aci-fade.png" alt="aci">
-		<img src="images/acm-fade.png" alt="acm">
-		<img src="images/AFE-fade.png" alt="AFE">
+		<ul>
+			<li><img class="img-fade highschool-aci loans-aci" src="images/aci-fade.png" alt="aci">
+			</li>
+			<li><img class="img-fade scholarships-acm" src="images/acm-fade.png" alt="acm">
+			</li>
+			<li><img class="img-fade loans-afe kindergarten-afe" src="images/AFE-fade.png" alt="AFE">
+			</li>
+			<li><img class="img-fade highschool-aci scholarships-aci" src="images/aci-fade.png" alt="aci">
+			</li>
+			<li><img class="img-fade kindergarten-acm" src="images/acm-fade.png" alt="acm">
+			</li>
+			<br>
+			<li><img class="img-fade highschool-acm scholarships-acm" src="images/acm-fade.png" alt="acm">
+			</li>
+			<li><img class="img-fade kindergarten-afe" src="images/AFE-fade.png" alt="AFE">
+			</li>
+			<li><img class="img-fade scholarships-aci" src="images/aci-fade.png" alt="aci">
+			</li>
+			<li><img class="img-fade kindergarten-acm scholarships-acm" src="images/acm-fade.png" alt="acm">
+			</li> 
+			<li><img class="img-fade loans-afe" src="images/AFE-fade.png" alt="AFE">
+			</li>
+			<br>
+			<li><img class="img-fade loans-aci" src="images/aci-fade.png" alt="aci">
+			</li> 
+			<li><img class="img-fade kindergarten-acm" src="images/acm-fade.png" alt="acm">
+			</li> 
+			<li><img class="img-fade loans-afe" src="images/AFE-fade.png" alt="AFE">
+			</li> 
+			<li><img class="img-fade highschool-aci scholarships-aci" src="images/aci-fade.png" alt="aci">
+			</li> 
+			<li><img class="img-fade highschool-acm" src="images/acm-fade.png" alt="acm">
+			</li>
+		</ul>
 	</section>
 
-
-	<script src="node_modules/jQuery/dist/jQuery.min.js"></script>
-	<script type="text/javascript" srch="js/script.js"></script>	
+	<script src="node_modules/jQuery/dist/jQuery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>	
 </body>
 </html>
